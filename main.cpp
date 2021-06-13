@@ -6,7 +6,7 @@ void print_HelloWorld(){
 }
 
 int main(){
-    DemoClass dc(1, 1.0);
+    DemoClass dc(1, 1.0, "Mr. Demo");
     dc.demoFunction();
     print_HelloWorld();
 }
