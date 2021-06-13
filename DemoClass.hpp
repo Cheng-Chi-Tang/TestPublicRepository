@@ -4,8 +4,10 @@ using namespace std;
 class DemoClass{
 public:
     int x;
-    DemoClass(int val){
-        x = val;
+    double y;
+    DemoClass(int int_val, double double_val){
+        x = int_val;
+        y = double_val;
     };
     void demoFunction();
 };
