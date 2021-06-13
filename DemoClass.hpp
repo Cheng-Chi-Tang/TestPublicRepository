@@ -4,6 +4,8 @@ using namespace std;
 class DemoClass{
 public:
     int x;
-    DemoClass(int val): x(val){};
+    DemoClass(int val){
+        x = val;
+    };
     void demoFunction();
 };
